@@ -1,0 +1,49 @@
+ul {
+  display: none;
+}
+
+input:checked ~ ul {
+  display: block;
+}
+
+input {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+label:hover {
+  background: lightgrey;
+}
+
+ul {
+  margin-top: 0;
+  padding: 0;
+  width: 150px;
+}
+
+li {
+  display: block;
+  background: coral;
+  margin: 0;
+  padding: 7px;
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
+  user-select: none;
+}
+
+li:hover {
+  filter: brightness(120%);
+}
