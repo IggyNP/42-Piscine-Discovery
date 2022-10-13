@@ -53,10 +53,10 @@
 	z-index: -1;
   }
 
-  .bg1::after {
-	background-image: url(img/no.jpeg);
+  .parallax_bg1_section::after {
+	background-image: url("img/no.jpeg");
   }
 
-  .bg2::after {
-	background-image: url(img/yes.jpeg);
+  .parallax_bg2_section::after {
+	background-image: url("img/yes.jpeg");
   }
