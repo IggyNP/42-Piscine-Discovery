@@ -1,0 +1,16 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.parallax{
+	background-image: url("img/no.jpeg");
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+}
+
+p {
+	text-align: center;
+	text-align: middle;
+}
