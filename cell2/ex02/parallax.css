@@ -1,62 +1,47 @@
 * {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-
-.wrapper {
+.parallax {
   height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 2px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.parallax_bg1_section{
-	position: relative;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: white;
-	text-shadow: 0 0 5px #000;
+p {
+  font-size: 12px;
+  color: white;
 }
 
-.static_section{
-	position: relative;
-	height: 20%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: white;
-	text-shadow: 0 0 5px #000;
-	background-color: black;
+.section1 {
+  background-image: url("img/no.jpeg");
 }
 
-.parallax_bg2_section {
-	position: relative;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: white;
-	text-shadow: 0 0 5px #000;
+.section2 {
+  background-image: url("img/yes.jpeg");
 }
 
-.parallax::after {
-	content: " ";
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	transform: translateZ(-1px) scale(1.5);
-	background-size: 100%;
-	z-index: -1;
-  }
+.container {
+  background-color: black;
+  width: 100%;
+  padding-top: 50px;
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
 
-  .parallax_bg1_section::after {
-	background-image: url("img/no.jpeg");
-  }
-
-  .parallax_bg2_section::after {
-	background-image: url("img/yes.jpeg");
-  }
+.text {
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  padding: 8px 5px 5px 5px;
+}
