@@ -17,6 +17,8 @@
 p {
   font-size: 12px;
   color: white;
+font-size: 12px;
+color:white;
 }
 
 .section1 {
@@ -45,3 +47,11 @@ p {
   text-align: center;
   padding: 8px 5px 5px 5px;
 }
+	color: white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	padding: 8px 5px 5px 5px;
+  }
