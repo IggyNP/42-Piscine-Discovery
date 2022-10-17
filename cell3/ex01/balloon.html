@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Balloon</title>
-</head>
-<body>
-	
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Balloon</title>
+    <style>
+      body {
+        display: grid;
+        height: 100vh;
+        place-items: center;
+      }
+
+      .balloon {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+
+      .red {
+        background-color: red;
+      }
+
+      .green {
+        background-color: green;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="balloon red" id="balloon" onclick="balloonClick()" onmouseleave="balloonHover()"></div>
+    <script>
+      function colorChange() {
+        var balloon = document.getElementById("balloon").classList;
+        if (balloon.contains("red")) {
+          balloon.remove("red");
+          balloon.add("green");
+        } else if (balloon.contains("green")) {
+          balloon.remove("green");
+          balloon.add("blue");
+        } else if (balloon.contains("blue")) {
+          balloon.remove("blue");
+          balloon.add("red");
+        }
+      }
+      function balloonClick() {
+        var balloon = document.getElementById("balloon");
+        colorChange();
+        if (balloon.style.width <= "420px") {
+          balloon.style.width = balloon.offsetWidth + 10 + "px";
+          balloon.style.height = balloon.offsetHeight + 10 + "px";
+        } else {
+          balloon.style.width = "200px";
+          balloon.style.height = "200px";
+        }
+      }
+	  function revColorChange() {
+        var balloon = document.getElementById("balloon").classList;
+        if (balloon.contains("red")) {
+          balloon.remove("red");
+          balloon.add("blue");
+        } else if (balloon.contains("blue")) {
+          balloon.remove("blue");
+          balloon.add("green");
+        } else if (balloon.contains("green")) {
+          balloon.remove("green");
+          balloon.add("red");
+        }
+      }
+      function balloonHover() {
+        var balloon = document.getElementById("balloon");
+        revColorChange();
+        balloon.style.width = Math.max(200, balloon.offsetWidth - 5) + "px";
+        balloon.style.height = Math.max(200, balloon.offsetHeight - 5) + "px";
+      }
+    </script>
+  </body>
 </html>
