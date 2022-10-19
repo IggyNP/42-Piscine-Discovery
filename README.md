@@ -34,7 +34,16 @@ I was able to do up to cell 3.1 during the bootcamp, but will continue to upload
  </p>
  <br>
 
-## License ⚖️
+### Finished Projects 🔗
+
+* [Cell 1.4 - Basics](https://iggynp.github.io/42-Piscine-Discovery/cell1/ex04/basics.html)
+* [Cell 2.2 - Parallax](https://iggynp.github.io/42-Piscine-Discovery/cell2/ex02/parallax.html)
+* [Cell 2.3 - Card](https://iggynp.github.io/42-Piscine-Discovery/cell2/ex03/card.html)
+* [Cell 3.0 - Backgroound](https://iggynp.github.io/42-Piscine-Discovery/cell3/ex00/backgroound.html)
+* [Cell 3.1 - Balloon](https://iggynp.github.io/42-Piscine-Discovery/cell3/ex01/balloon.html)
+<br>
+
+### License ⚖️
 
 Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See [`LICENSE`](/LICENSE) for more information.
 
