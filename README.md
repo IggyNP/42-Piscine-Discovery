@@ -26,7 +26,7 @@
 
 ### My Progress 📊
 
-I was able to do up to cell 3.1 during the bootcamp, but will continue to upload the rest of the exercises (3.2, 3.3, and 4.0) when possible.
+I was able to do up to cell 3.1 during the bootcamp, but will continue to upload the rest of the exercises (3.2, 3.3, 3.4, and 4.0) when possible.
 <br>
 <br>
 <p align="center" > 
