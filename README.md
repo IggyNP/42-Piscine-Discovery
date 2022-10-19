@@ -34,7 +34,7 @@ I was able to do up to cell 3.1 during the bootcamp, but will continue to upload
  </p>
  <br>
 
-### Finished Projects 🔗
+### Finished Project Websites 🔗
 
 * [Cell 1.4 - Basics](https://iggynp.github.io/42-Piscine-Discovery/cell1/ex04/basics.html)
 * [Cell 2.2 - Parallax](https://iggynp.github.io/42-Piscine-Discovery/cell2/ex02/parallax.html)
