@@ -36,7 +36,7 @@ I was able to do up to cell 3.1 during the bootcamp, but will continue to upload
 
 ## License ⚖️
 
-Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See `LICENSE` for more information.
+Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. See [`LICENSE`](/LICENSE) for more information.
 
 <br>
 <br>
